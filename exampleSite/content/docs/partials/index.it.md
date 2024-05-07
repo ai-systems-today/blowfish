@@ -82,7 +82,7 @@ static/
 └─ site.webmanifest
 ```
 
-Alternatively, you can also completely override the default favicon behaviour and provide your own favicon HTML tags and assets. Simply provide a `layouts/partials/favicons.html` file in your project and this will be injected into the site `<head>` in place of the default assets.
+Alternatively, you can also completely override the default favicon behaviour and provide your own  HTML tags and assets. Simply provide a `layouts/partials/s.html` file in your project and this will be injected into the site `<head>` in place of the default assets.
 
 ## Icon
 
