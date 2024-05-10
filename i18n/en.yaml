@@ -21,7 +21,7 @@ article:
   likes:
     one: "{{ .Count }} like"
     other: "{{ .Count }} likes"
-  part_of_series: "Services"
+  part_of_series: "series"
   part: "Part"
   this_article: "This Article"
   related_articles: "Related"
