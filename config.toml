@@ -1,3 +1,4 @@
+theme = "blowfish"
 [module]
 [module.hugoVersion]
 extended = true
