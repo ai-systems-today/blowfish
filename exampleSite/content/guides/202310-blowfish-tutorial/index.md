@@ -204,7 +204,7 @@ Next, let's configure our homepage. We’re going with the _background_ layout, 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "image.jpg" # used in: hero, and card
-  showRecent = true
+  showRecent = false
   showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/posts/"

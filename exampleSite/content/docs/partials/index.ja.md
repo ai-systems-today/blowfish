@@ -4,7 +4,7 @@ weight: 9
 draft: false
 description: "All the partials available in Blowfish."
 slug: "partials"
-tags: ["partials", "analytics", "privacy", "comments", "favicons", "icon", "docs"]
+tags: ["partials", "analytics", "privacy", "comments", "s", "icon", "docs"]
 series: ["Documentation"]
 series_order: 9
 ---
@@ -88,24 +88,24 @@ You can use either the built-in Hugo Disqus template, or provide your own custom
 
 Once the partial has been provided, finer control over where comments are displayed is then managed using the `showComments` parameter. This value can be set at the theme level in the `params.toml` [config file]({{< ref "configuration#theme-parameters" >}}), or on a per-article basis by including it in the [front matter]({{< ref "front-matter" >}}). The parameter defaults to `false` so it must be set to `true` in one of these locations in order for comments to be displayed.
 
-## Favicons
+## s
 
-Blowfish provides a default set of blank favicons to get started but you can provide your own assets to override them. The easiest way to obtain new favicon assets is to generate them using a third-party provider like [favicon.io](https://favicon.io).
+Blowfish provides a default set of blank s to get started but you can provide your own assets to override them. The easiest way to obtain new  assets is to generate them using a third-party provider like [.io](https://.io).
 
-Icon assets should be placed directly in the `static/` folder of your website and named as per the listing below. If you use [favicon.io](https://favicon.io), these will be the filenames that are automatically generated for you, but you can provide your own assets if you wish.
+Icon assets should be placed directly in the `static/` folder of your website and named as per the listing below. If you use [.io](https://.io), these will be the filenames that are automatically generated for you, but you can provide your own assets if you wish.
 
 ```shell
 static/
 ├─ android-chrome-192x192.png
 ├─ android-chrome-512x512.png
 ├─ apple-touch-icon.png
-├─ favicon-16x16.png
-├─ favicon-32x32.png
-├─ favicon.ico
+├─ -16x16.png
+├─ -32x32.png
+├─ .ico
 └─ site.webmanifest
 ```
 
-Alternatively, you can also completely override the default favicon behaviour and provide your own favicon HTML tags and assets. Simply provide a `layouts/partials/favicons.html` file in your project and this will be injected into the site `<head>` in place of the default assets.
+Alternatively, you can also completely override the default  behaviour and provide your own  HTML tags and assets. Simply provide a `layouts/partials/s.html` file in your project and this will be injected into the site `<head>` in place of the default assets.
 
 ## Icon
 
